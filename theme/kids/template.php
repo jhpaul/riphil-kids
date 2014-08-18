@@ -33,7 +33,7 @@
         <![endif]-->
         <!-- Add your site or application content here -->
         <header>
-            <a href="<?php get_site_url(); ?>"><img src="http://placehold.it/300x200&text=<?php get_site_name(); ?>" alt="<?php get_site_name(); ?>" /></a>
+            <a href="<?php get_site_url(); ?>"><img src="http://placehold.it/300x150&text=<?php get_site_name(); ?>" alt="<?php get_site_name(); ?>" /></a>
         </header>
 
 
