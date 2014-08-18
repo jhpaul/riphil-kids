@@ -31,8 +31,13 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
         <!-- Add your site or application content here -->
+        <header>
+            <a href="<?php get_site_url(); ?>"><img src="http://placehold.it/300x200&text=<?php get_site_name(); ?>" alt="<?php get_site_name(); ?>" /></a>
+        </header>
+
+
+
         <p>Hello world! This is HTML5 Boilerplate.</p>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
