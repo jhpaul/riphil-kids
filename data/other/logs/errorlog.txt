@@ -1,0 +1,10 @@
+[18-Aug-2014 12:46:12 America/New_York] PHP Warning:  chmod(): Operation not permitted in /var/www/html/simple/admin/install.php on line 44
+[18-Aug-2014 12:46:12 America/New_York] PHP Warning:  chmod(): Operation not permitted in /var/www/html/simple/admin/install.php on line 44
+[18-Aug-2014 12:46:12 America/New_York] PHP Warning:  chmod(): Operation not permitted in /var/www/html/simple/admin/install.php on line 44
+[18-Aug-2014 12:46:12 America/New_York] PHP Warning:  chmod(): Operation not permitted in /var/www/html/simple/admin/install.php on line 44
+[18-Aug-2014 12:46:12 America/New_York] PHP Warning:  chmod(): Operation not permitted in /var/www/html/simple/admin/install.php on line 44
+[18-Aug-2014 12:46:12 America/New_York] PHP Warning:  chmod(): Operation not permitted in /var/www/html/simple/admin/install.php on line 44
+[18-Aug-2014 12:46:12 America/New_York] PHP Warning:  chmod(): Operation not permitted in /var/www/html/simple/admin/install.php on line 44
+[18-Aug-2014 12:46:12 America/New_York] PHP Warning:  chmod(): Operation not permitted in /var/www/html/simple/admin/install.php on line 44
+[18-Aug-2014 12:52:00 America/New_York] PHP Notice:  Undefined index: existing-url in /var/www/html/simple/admin/changedata.php on line 198
+[18-Aug-2014 12:52:00 America/New_York] PHP Notice:  Undefined index: existing-url in /var/www/html/simple/admin/changedata.php on line 201
