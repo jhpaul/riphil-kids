@@ -96,9 +96,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
+nav * {
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    text-align: center;
+}
+nav li a {
+    font-weight: 700;
+}
 
 
 
