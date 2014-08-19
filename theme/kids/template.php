@@ -23,9 +23,9 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         
 
-        <link rel="stylesheet" href="theme/kids/css/normalize.css">
-        <link rel="stylesheet" href="theme/kids/css/main.css">
-        <script src="theme/kids/js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/normalize.css">
+        <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/main.css">
+        <script src="<?php get_theme_url(); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body id="<?php get_page_slug(); ?>" >
         <!--[if lt IE 7]>
@@ -34,6 +34,10 @@
         <!-- Add your site or application content here -->
         <header>
             <a href="<?php get_site_url(); ?>"><img src="http://placehold.it/300x150&text=<?php get_site_name(); ?>" alt="<?php get_site_name(); ?>" /></a>
+        
+            <nav>
+                <?php get_navigation(return_page_slug()); ?>.
+            </nav>
         </header>
 
 
@@ -41,9 +45,9 @@
         <p>Hello world! This is HTML5 Boilerplate.</p>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="theme/kids/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="theme/kids/js/plugins.js"></script>
-        <script src="theme/kids/js/main.js"></script>
+        <script>window.jQuery || document.write('<script src="<?php get_theme_url(); ?>/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="<?php get_theme_url(); ?>/js/plugins.js"></script>
+        <script src="<?php get_theme_url(); ?>/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
