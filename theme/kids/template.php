@@ -23,9 +23,9 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="theme/kids/css/normalize.css">
+        <link rel="stylesheet" href="theme/kids/css/main.css">
+        <script src="theme/kids/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body id="<?php get_page_slug(); ?>" >
         <!--[if lt IE 7]>
@@ -41,9 +41,9 @@
         <p>Hello world! This is HTML5 Boilerplate.</p>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script>window.jQuery || document.write('<script src="theme/kids/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="theme/kids/js/plugins.js"></script>
+        <script src="theme/kids/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
